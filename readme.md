@@ -32,7 +32,7 @@ require('unto').englobal()
 */
 ```
 
-The object is already bound as context, so you can bind null, callback and call it later.
+The object is already bound to unto, so you can `.bind(null, callback)` and call it later.
 
 Also, all extra arguments will make it through.
 
