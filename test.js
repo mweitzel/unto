@@ -66,7 +66,7 @@ test('with an underbound cb and other args, calls cb with object and other args'
   ))(1,2,3)
 )
 
-test('works on strings, ints, bools, whatever, all things typeof', t => (
+test('works as expecte on strings, does not split into array', t => (
   t.equals(
     'asdf'.unto(String.prototype.toUpperCase.call.bind(String.prototype.toUpperCase))
   , 'ASDF'
