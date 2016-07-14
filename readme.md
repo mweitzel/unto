@@ -45,3 +45,7 @@ It inverts parameters on a callback.
 )('starlit heaven')
 // -> "I, today, the starlit heaven"
 ```
+
+## License
+
+MIT
