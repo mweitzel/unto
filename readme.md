@@ -39,8 +39,9 @@ Also, all extra arguments will make it through.
 It inverts parameters on a callback.
 
 ```js
-"I".unto.bind(null, (myself, virtues) =>
-  [myself, ', today, the ', virtues].join('')
+"I".unto.bind(null,
+  (myself, virtues) =>
+    [myself, ', today, the ', virtues].join('')
 )('starlit heaven')
 // -> "I, today, the starlit heaven"
 ```
