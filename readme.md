@@ -46,6 +46,10 @@ It inverts parameters on a callback.
 // -> "I, today, the starlit heaven"
 ```
 
+_Notice:_
+
+To use `unto` in the repl, you'll need to set useGlobal to true. A repl with `unto` required and englobaled is provided in this repository. You can run it with `$ ./repl`.
+
 ## License
 
 MIT
