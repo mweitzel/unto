@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var unto = require('./index')
+var repl = require('repl')
+
+unto.englobal()
+repl.start({ useGlobal: true })
