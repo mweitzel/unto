@@ -12,6 +12,8 @@ unto.englobal = once(() =>
   Object.defineProperty(
     Object.prototype
   , 'unto'
-  , { get: function() { return module.exports.bind(this) } }
+  , { get: function() { return module.exports.bind(this) }
+    , set: function() {}
+    }
   )
 )
