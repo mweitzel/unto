@@ -1,6 +1,6 @@
 {
   "name": "unto",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "chain methods on any object",
   "main": "index.js",
   "scripts": {
